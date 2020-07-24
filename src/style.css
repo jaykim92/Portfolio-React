@@ -1,0 +1,17 @@
+.cover-img {
+  background-image: url("./assets/cover.jpeg");
+  background-size: cover;
+}
+
+.full-height {
+  height: 100vh;
+  overflow: hidden;
+}
+
+.vertical-center {
+  margin-top: 50vh;
+}
+
+.container-opaque {
+  background: rgba(0,0,0,0.15);
+}
