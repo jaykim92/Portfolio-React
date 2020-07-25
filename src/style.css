@@ -1,17 +1,56 @@
+/* landing page */
 .cover-img {
-  background-image: url("./assets/cover.jpeg");
+  background-image: url("https://media.giphy.com/media/iF0qnPWMvobyNk5g8C/giphy.gif");
   background-size: cover;
 }
 
+.vertical-center {
+  margin-top: 35vh;
+}
+
+.container-opaque {
+  background: rgba(255, 255, 255, 0.568);
+}
+
+/* 100vh divs */
 .full-height {
   height: 100vh;
   overflow: hidden;
 }
 
-.vertical-center {
-  margin-top: 50vh;
+
+/* font */
+.custom-font {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
 }
 
-.container-opaque {
-  background: rgba(0,0,0,0.15);
+.font-name {
+  font-size: 400%;
+}
+
+.font-title {
+  font-size: 250%;
+}
+
+.font-description {
+  font-size: 150%
+}
+
+/* custom margins */
+.custom-margin-left {
+  margin-left: 10%;
+}
+
+.custom-margin-right {
+  margin-right: 10%;
+}
+
+.custom-padding-top {
+  padding-top: 7%;
+}
+
+.custom-margin-top {
+  margin-top: 3rem;
 }

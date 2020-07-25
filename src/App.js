@@ -3,15 +3,13 @@ import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 // components
-import Front from "./components/front";
-import Portfolio from "./components/portfolio";
-import Contact from "./components/contact";
-import Resume from "./components/resume";
+import Front from "./pages/front";
+import Contact from "./pages/contact";
 
 // styling
 import "./style.css";
 
-function App() {
+export default ()=> {
   return (
     <>
       <Router>
@@ -19,14 +17,8 @@ function App() {
               <Route exact path="/">
                 <Front />
               </Route>
-              <Route exact path="/portfolio">
-                <Portfolio />
-              </Route>
               <Route exact path="/contact">
                 <Contact />
-              </Route>
-              <Route exact path="/resume">
-                <Resume />
               </Route>
           </Switch>
       </Router>
@@ -34,4 +26,3 @@ function App() {
   );
 }
 
-export default App;
