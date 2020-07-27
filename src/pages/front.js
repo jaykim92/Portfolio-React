@@ -2,28 +2,29 @@
 import React from "react";
 
 // components
-import Portfolio from "./portfolio"
+import Nav from "../components/nav";
+
+// utils
+import navlinks from "../utils/navlink.json";
 
 function Front() {
   return (
     <>
       <div className="full-height cover-img">
-        <div className="container text-center vertical-center" style={{width: "70%"}}>
-          <h1 className="text-white custom-font font-name">Jay Kim</h1>
-          <h5 className="text-white">Full Stack Web Developer</h5>
-          <hr style={{ backgroundColor: "white" }}></hr>
-          <div className="row">
-            <a className="col-sm-6 text-white" href="#portfolio">
-              Portfolio
-            </a>
-            <a className="col-sm-6 text-white" href="./contact">
-              Contact
-            </a>
-          </div>
+        <div className="row">
+          <div className="container vertical-center text-center" style={{width: "80%"}}>
+            <h1 className="font-name text-white custom-font">Jay Kim</h1>
+            <h5 className="text-white custom-font">Full Stack Web Developer</h5>
+            <hr style={{ backgroundColor: "white" }}></hr>
+          </div>          
         </div>
-      </div>
+        <div className="row text-center">
+          {navlinks.map(link => (
+              <Nav data={link} />
+          ))}       
+        </div>
 
-      <Portfolio />
+      </div>
     </>
   );
 }

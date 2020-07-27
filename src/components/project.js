@@ -1,4 +1,7 @@
+// packages
 import React from "react";
+
+// assets
 import inorout from "../assets/inorout.png";
 import weather from "../assets/weather-dashboard.png";
 import dayplanner from "../assets/day-planner.png";
@@ -12,33 +15,33 @@ const imgCMS = {
 function Project({ data }) {
   return (
     <div
-      className="full-height"
+      className=" row full-height"
       data-aos="fade-up"
       data-aos-duration="700"
       id="portfolio-img-one"
     >
-      <div className="columns custom-padding-top">
+      <div className="col-sm-12 custom-margin-top">
         <div
           className={`col text-${data.position} custom-margin-${data.position}`}
           data-aos={`zoom-in-${data.zoom}`}
           data-aos-duration="800"
         >
-          <h2 className="text-white font-description">{data.title}</h2>
-          <a href={data.deployed} className="text-secondary">
+          <h2 className="">{data.title}</h2>
+          <a href={data.deployed} className="">
             <p>application</p>
           </a>
-          <a href={data.repo} className="text-secondary">
+          <a href={data.repo} className="">
             <p>repository</p>
           </a>
         </div>
-        <div className="col">
+        <div className="container">
           <figure
-            className="image is-3by2"
+            className=""
             data-aos={`zoom-in-${data.position}`}
             data-aos-duration="800"
           >
             <img
-              style={{ height: "20vh" }}
+              className="img-fluid rounded"
               src={imgCMS[data.img]}
               alt="project screenshot"
             />
