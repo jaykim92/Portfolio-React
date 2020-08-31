@@ -9,7 +9,7 @@ import dayplanner from "../assets/day-planner.png";
 const imgCMS = {
   inorout,
   "weather-dashboard": weather,
-  "day-planner": dayplanner,
+  "day-planner": dayplanner
 };
 
 function Project({ data }) {
@@ -18,7 +18,7 @@ function Project({ data }) {
       className=" row full-height"
       data-aos="fade-up"
       data-aos-duration="700"
-      id="portfolio-img-one"
+      id="projects"
     >
       <div className="col-sm-12 custom-margin-top">
         <div
