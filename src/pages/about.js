@@ -1,9 +1,13 @@
 // packages
 import React from "react";
 
+// import components
+import Header from "../components/header";
+
 function About() {
   return (
     <>
+      <Header />
       <div id="about" className="full-height about-img">
         <div
           className="container container-opaque rounded-border"

@@ -9,13 +9,13 @@ function Header() {
                         <a className='nav-link' href='/'><span className='text-dark'>Home</span></a>
                     </li>
                     <li className='nav-item'>
-                        <a className='nav-link' href='/info/#about'><span className='text-dark'>About</span></a>
+                        <a className='nav-link' href='/about'><span className='text-dark'>About</span></a>
                     </li>
                     <li className='nav-item'>
-                        <a className='nav-link' href='/info/#projects'><span className='text-dark'>Projects</span></a>
+                        <a className='nav-link' href='/projects'><span className='text-dark'>Projects</span></a>
                     </li>
                     <li className='nav-item'>
-                        <a className='nav-link' href='/info/#contact'><span className='text-dark'>Contact</span></a>
+                        <a className='nav-link' href='/contact'><span className='text-dark'>Contact</span></a>
                     </li>
                 </ul>
             </nav>            
