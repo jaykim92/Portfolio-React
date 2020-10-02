@@ -51,12 +51,12 @@ function Project({ data }) {
     // </div>
     <div className="col-sm-4">
       <div className="card" style={{ width: "18rem" }}>
-        <div className="card-body">
-          <h3 className="card-title">{data.title}</h3>
-          <a className="card-title" href={data.deployed}>
+        <div className="card-body row">
+          <h3 className="card-title col-sm-12">{data.title}</h3>
+          <a className="card-title col-sm-12" href={data.deployed}>
             Visit
           </a>
-          <a className="card-title" href={data.repo}>
+          <a className="card-title col-sm-12" href={data.repo}>
             GitHub
           </a>
         </div>
