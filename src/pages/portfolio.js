@@ -10,12 +10,14 @@ import projects from "../utils/projects.json";
 
 function Portfolio() {
   return (
-    <div className="full-height" id="projects">
+    <div className="full-height projects-img" id="projects">
       <Header />
-      <div className="row">
-        {projects.map((item) => (
-          <Project data={item} />
-        ))}
+      <div className='container container-opaque'>
+        <div className="row vertical-center">
+          {projects.map((item) => (
+            <Project data={item} />
+          ))}
+        </div>        
       </div>
     </div>
   );

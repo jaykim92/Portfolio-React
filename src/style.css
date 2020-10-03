@@ -5,7 +5,7 @@
 }
 
 .about-img {
-  background-image: url("./assets/portfolio-one.jpeg");
+  background-image: url("./assets/about.jpg");
   background-size: cover;
 }
 
@@ -14,12 +14,17 @@
   background-size: cover;
 }
 
+.projects-img {
+  background-image: url("./assets/projects.jpg");
+  background-size: cover;
+}
+
 .vertical-center {
   margin-top: 35vh;
 }
 
 .container-opaque {
-  background: rgba(255, 255, 255, 0.568);
+  background: rgba(255, 255, 255, 0.7);
 }
 
 /* 100vh divs */

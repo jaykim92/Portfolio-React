@@ -52,7 +52,7 @@ function Project({ data }) {
     <div className="col-sm-4">
       <div className="card" style={{ width: "18rem" }}>
         <div className="card-body row">
-          <h3 className="card-title col-sm-12">{data.title}</h3>
+          <h3 className="card-header col-sm-12">{data.title}</h3>
           <a className="card-title col-sm-12" href={data.deployed}>
             Visit
           </a>
