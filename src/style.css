@@ -20,6 +20,7 @@
 }
 
 .vertical-center {
+  position: relative;
   margin-top: 35vh;
 }
 
@@ -29,8 +30,16 @@
 
 /* 100vh divs */
 .full-height {
-  height: 100vh;
+  min-height: 100vh;
   overflow: hidden;
+}
+
+.in-middle {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  height: 100vh;
 }
 
 
@@ -55,18 +64,22 @@
 
 /* custom margins */
 .custom-margin-left {
+  position: relative;
   margin-left: 10%;
 }
 
 .custom-margin-right {
+  position: relative;
   margin-right: 10%;
 }
 
 .custom-padding-top {
+  position: relative;
   padding-top: 7%;
 }
 
 .custom-margin-top {
+  position: relative;
   margin-top: 3rem;
 }
 
