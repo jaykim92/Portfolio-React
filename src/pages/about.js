@@ -1,22 +1,21 @@
 // packages
-import React from "react";
+import React, { useState } from "react";
 
 // import components
 import Header from "../components/header";
 
-function About() {
+const About = (props) => {
+  const [isNavCollapsed, setIsNavCollapsed] = useState(true);
+
+  const handleNavCollapse = () => setIsNavCollapsed(!isNavCollapsed);
+
   return (
     <>
       <Header />
       <div id="about" className="in-middle">
         <div className="jumbotron">
-          <div
-            className="container container-opaque"
-          >
-            <div
-              className="container"
-              style={{ width: "70%" }}
-            >
+          <div className="container container-opaque">
+            <div className="container" style={{ width: "70%" }}>
               <h5 className="display-4 text-center">
                 Hi there! My name is Jay.
               </h5>
@@ -35,58 +34,63 @@ function About() {
                   </p>
                 </div>
                 <div className="col-sm-8">
-                  <p>
-                    Check out some of the languages I know:{" "}
-                  </p>
+                  <p>Check out some of the languages I know: </p>
                 </div>
                 <div className="col-sm-4">
-                <button
-                      className="btn btn-success"
-                      type="button"
-                      dataToggle="collapse"
-                      dataTarget="#collapse1"
-                      ariaExpanded="false"
-                      ariaControls="collapse1"
-                    >
-                      Languages
-                    </button>
+                  <button
+                    className="btn btn-success"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#collapse1"
+                    aria-controls="collapse1"
+                    aria-expanded={!isNavCollapsed ? true : false}
+                    aria-label="Toggle languages"
+                    onClick={handleNavCollapse}
+                  >
+                    Languages
+                  </button>
                 </div>
                 <div className="col-sm-8">
-                  <p>
-                    These are some technologies I've used in the past:{" "}
-                  </p>
+                  <p>These are some technologies I've used in the past: </p>
                 </div>
                 <div className="col-sm-4">
-                <button
-                      className="btn btn-success"
-                      type="button"
-                      data-toggle="collapse"
-                      data-target="#collapse2"
-                      aria-expanded="false"
-                      aria-controls="collapse2"
-                    >
-                      Technologies
-                    </button>
+                  <button
+                    className="btn btn-success"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#collapse2"
+                    aria-controls="collapse2"
+                    aria-expanded={!isNavCollapsed ? true : false}
+                    aria-label="Toggle languages"
+                    onClick={handleNavCollapse}
+                  >
+                    Technologies
+                  </button>
                 </div>
               </div>
 
               <div className="row">
-  <div className="col-sm-6">
-    <div className="collapse multi-collapse" id="collapse1">
-      <div className="card card-body">
-        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
-      </div>
-    </div>
-  </div>
-  <div className="col-sm-6">
-    <div className="collapse multi-collapse" id="collapse2">
-      <div className="card card-body">
-        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
-      </div>
-    </div>
-  </div>
-</div>
-
+                <div className="col-sm-6">
+                  <div className={`${isNavCollapsed ? 'collapse' : ''} navbar-collapse`} id="collapse1">
+                    <div className="card card-body">
+                      Anim pariatur cliche reprehenderit, enim eiusmod high
+                      life accusamus terry richardson ad squid. Nihil anim
+                      keffiyeh helvetica, craft beer labore wes anderson cred
+                      nesciunt sapiente ea proident.
+                    </div>
+                  </div>
+                </div>
+                <div className="col-sm-6">
+                  <div className="collapse multi-collapse" id="collapse2">
+                    <div className="card card-body">
+                      Anim pariatur cliche reprehenderit, enim eiusmod high
+                      life accusamus terry richardson ad squid. Nihil anim
+                      keffiyeh helvetica, craft beer labore wes anderson cred
+                      nesciunt sapiente ea proident.
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
