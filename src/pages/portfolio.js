@@ -12,7 +12,7 @@ function Portfolio() {
   return (
     <div className="full-height projects-img" id="projects">
       <Header />
-      <div className='container container-opaque'>
+      <div className='container'>
         <div className="row vertical-center">
           {projects.map((item) => (
             <Project data={item} />
