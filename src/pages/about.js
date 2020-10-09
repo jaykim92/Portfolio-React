@@ -5,9 +5,11 @@ import React, { useState } from "react";
 import Header from "../components/header";
 
 const About = (props) => {
-  const [isNavCollapsed, setIsNavCollapsed] = useState(true);
+  const [collapse1, setCollapse1] = useState(true);
+  const handleCollapse1 = () => setCollapse1(!collapse1);
 
-  const handleNavCollapse = () => setIsNavCollapsed(!isNavCollapsed);
+  const [collapse2, setCollapse2] = useState(true);
+  const handleCollapse2 = () => setCollapse2(!collapse2);
 
   return (
     <>
@@ -43,9 +45,9 @@ const About = (props) => {
                     data-toggle="collapse"
                     data-target="#collapse1"
                     aria-controls="collapse1"
-                    aria-expanded={!isNavCollapsed ? true : false}
+                    aria-expanded={!collapse1 ? true : false}
                     aria-label="Toggle languages"
-                    onClick={handleNavCollapse}
+                    onClick={handleCollapse1}
                   >
                     Languages
                   </button>
@@ -60,9 +62,9 @@ const About = (props) => {
                     data-toggle="collapse"
                     data-target="#collapse2"
                     aria-controls="collapse2"
-                    aria-expanded={!isNavCollapsed ? true : false}
+                    aria-expanded={!collapse2 ? true : false}
                     aria-label="Toggle languages"
-                    onClick={handleNavCollapse}
+                    onClick={handleCollapse2}
                   >
                     Technologies
                   </button>
@@ -71,22 +73,33 @@ const About = (props) => {
 
               <div className="row">
                 <div className="col-sm-6">
-                  <div className={`${isNavCollapsed ? 'collapse' : ''} navbar-collapse`} id="collapse1">
-                    <div className="card card-body">
-                      Anim pariatur cliche reprehenderit, enim eiusmod high
-                      life accusamus terry richardson ad squid. Nihil anim
-                      keffiyeh helvetica, craft beer labore wes anderson cred
-                      nesciunt sapiente ea proident.
+                  <div className={`${collapse1 ? 'collapse' : ''} navbar-collapse`} id="collapse1">
+                    <div className="card card-body text-center">
+                      <h5>Languages</h5>
+                      <hr></hr>
+                      <p>HTML5</p>
+                      <p>CSS3</p>
+                      <p>JavaScript</p>
                     </div>
                   </div>
                 </div>
                 <div className="col-sm-6">
-                  <div className="collapse multi-collapse" id="collapse2">
-                    <div className="card card-body">
-                      Anim pariatur cliche reprehenderit, enim eiusmod high
-                      life accusamus terry richardson ad squid. Nihil anim
-                      keffiyeh helvetica, craft beer labore wes anderson cred
-                      nesciunt sapiente ea proident.
+                <div className={`${collapse2 ? 'collapse' : ''} navbar-collapse`} id="collapse2">
+                    <div className="card card-body text-center">
+                      <h5>Technologies</h5>
+                      <hr></hr>
+                      <div className="row">
+                        <div className="col-sm-6">
+                          <p>React</p>
+                          <p>Express</p>
+                          <p>Node</p>                      
+                        </div>
+                        <div className="col-sm-6">
+                          <p>MySQL</p>
+                          <p>MongoDB</p>
+                          <p>jQuery</p> 
+                        </div>                        
+                      </div>
                     </div>
                   </div>
                 </div>
