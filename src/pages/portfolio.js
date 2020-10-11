@@ -14,7 +14,7 @@ function Portfolio() {
       <Header />
       <div className='container'>
         <div className="row vertical-center">
-          {projects.map((item) => (
+          {projects.projectArray.map((item) => (
             <Project data={item} />
           ))}
         </div>        

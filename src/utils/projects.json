@@ -1,5 +1,34 @@
-[
-    {"position": "left", "zoom": "right", "title": "01: In-or-Out", "deployed": "https://tyrodriguez.github.io/In-Or-Out.io/", "repo": "https://github.com/TyRodriguez/In-Or-Out.io", "img": "inorout", "alt": "In-or-Out screenshot", "modalId": "inoroutModal"},
-    {"position": "right", "zoom": "left", "title": "02: Day Planner", "deployed": "https://jaykim92.github.io/day-planner.io/", "repo": "https://github.com/jaykim92/day-planner.io", "img": "day-planner", "alt": "Day Planner screenshot", "modalId": "plannermodal"},
-    {"position": "left", "zoom": "right", "title": "03: Weather Dashboard", "deployed": "https://jaykim92.github.io/weather-dashboard-API.io/", "repo": "https://github.com/jaykim92/weather-dashboard-API.io", "img": "weather-dashboard", "alt": "Weather Dashboard screenshot", "modalId": "weatherModal"}
-]
+{
+  "projectArray": [
+    {
+      "position": "left",
+      "zoom": "right",
+      "title": "01: In-or-Out",
+      "deployed": "https://tyrodriguez.github.io/In-Or-Out.io/",
+      "repo": "https://github.com/TyRodriguez/In-Or-Out.io",
+      "img": "inorout",
+      "alt": "In-or-Out screenshot",
+      "modalId": "inoroutModal"
+    },
+    {
+      "position": "right",
+      "zoom": "left",
+      "title": "02: Day Planner",
+      "deployed": "https://jaykim92.github.io/day-planner.io/",
+      "repo": "https://github.com/jaykim92/day-planner.io",
+      "img": "day-planner",
+      "alt": "Day Planner screenshot",
+      "modalId": "plannermodal"
+    },
+    {
+      "position": "left",
+      "zoom": "right",
+      "title": "03: Weather Dashboard",
+      "deployed": "https://jaykim92.github.io/weather-dashboard-API.io/",
+      "repo": "https://github.com/jaykim92/weather-dashboard-API.io",
+      "img": "weather-dashboard",
+      "alt": "Weather Dashboard screenshot",
+      "modalId": "weatherModal"
+    }
+  ]
+}
