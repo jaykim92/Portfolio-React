@@ -53,7 +53,7 @@ function Project({ data }) {
     // </div>
     <div>
       <div className="col-md-4 col-sm-12">
-        <div className="card mx-auto" style={{ width: "20rem", height: "16rem"}}>
+        <div className="card mx-auto mb-4" style={{ width: "20rem", height: "16rem"}}>
           <div className="card-body row">
             <h3 className="card-header col-sm-12"><a href={`#${data.id}`} className="text-dark" data-toggle="modal" data-target={data.id}>{data.title}</a></h3>
             <a className="card-title col-sm-12 pt-3 text-dark" href={data.deployed}>

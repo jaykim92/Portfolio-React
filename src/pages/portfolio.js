@@ -12,10 +12,10 @@ function Portfolio() {
   return (
     <div className="full-height projects-img" id="projects">
       <Header />
-      <div className='container'>
-        <div className="row vertical-center">
-          {projects.projectArray.map((item) => (
-            <Project data={item} />
+      <div className='container d-flex'>
+        <div className="row vertical-center mx-auto">
+          {projects.projectArray.map((item, i) => (
+            <Project key={i} data={item} />
           ))}
         </div>        
       </div>

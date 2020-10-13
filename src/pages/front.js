@@ -19,8 +19,8 @@ function Front() {
           </div>          
         </div>
         <div className="row text-center">
-          {navlinks.map(link => (
-              <Nav data={link} />
+          {navlinks.map((link, i) => (
+              <Nav key={i} data={link} />
           ))}       
         </div>
 

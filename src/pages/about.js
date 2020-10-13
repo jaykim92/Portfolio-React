@@ -31,7 +31,7 @@ const About = (props) => {
                     I have a background in psychology and recently earned a
                     certificate in full stack web development from the
                     University of California, Irvine. I love clean designs and
-                    am dedicated to creating a simple but beautiful user
+                    am dedicated to creating a simple yet beautiful user
                     experience for every project.
                   </p>
                 </div>
