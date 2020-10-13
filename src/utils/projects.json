@@ -25,12 +25,12 @@
       "modalId": "inoroutModal"
     },
     {
-      "title": "In-or-Out",
-      "deployed": "https://tyrodriguez.github.io/In-Or-Out.io/",
-      "repo": "https://github.com/TyRodriguez/In-Or-Out.io",
-      "img": "inorout",
-      "alt": "In-or-Out screenshot",
-      "modalId": "inoroutModal"
+      "title": "Budget Tracker",
+      "deployed": "https://immense-chamber-26254.herokuapp.com/",
+      "repo": "https://github.com/jaykim92/PWA-Budget-Tracker",
+      "img": "budgettracker",
+      "alt": "budget screenshot",
+      "modalId": "budgetModal"
     },
     {
       "title": "Day Planner",

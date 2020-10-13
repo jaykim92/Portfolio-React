@@ -21,6 +21,11 @@
 
 .vertical-center {
   position: relative;
+  margin-top: 35vh;
+}
+
+.card-center {
+  position: relative;
   margin-top: 17vh;
 }
 

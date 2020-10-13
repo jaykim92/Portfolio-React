@@ -1,6 +1,9 @@
 // packages
 import React from 'react';
 
+// import pdf
+import PDF from "../assets/Jay_Kim.pdf"
+
 function ContactInfo() {
     return(
         <div className='container container-opaque' style={{marginTop: "15%"}}>
@@ -15,7 +18,7 @@ function ContactInfo() {
                     <div className='col-sm-12 col-md-6 text-center' style={{fontSize: "125%"}}>
                         <p><a href='https://www.linkedin.com/in/jaykim92'>LinkedIn</a></p>
                         <p><a href='https://www.github.com/jaykim92'>GitHub</a></p>
-                        <p><a href='../assets/Jay Kim.pdf'>Resume</a></p>
+                        <p><a href={PDF}>Resume</a></p>
                     </div>                
                 </div>                
             </div>
