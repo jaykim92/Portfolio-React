@@ -4,49 +4,49 @@
       "title": "Anti-Social Social App",
       "deployed": "https://anti-social-social-app.herokuapp.com",
       "repo": "https://github.com/jaykim92/Final-Project",
-      "img": "assa",
-      "alt": "social app screenshot",
-      "modalId": "assaModal"
+      "img": "Anti-Social-Social-App",
+      "location": "assa",
+      "alt": "social app screenshot"
     },
     {
       "title": "Restaurateur",
       "deployed": "https://restaurateurs.herokuapp.com/",
       "repo": "https://github.com/TyRodriguez/Project-Two",
-      "img": "",
-      "alt": "Restaurateur screenshot",
-      "modalId": "restaurateurModal"
+      "img": "Restaurateur",
+      "location": "restaurateur",
+      "alt": "Restaurateur screenshot"
     },
     {
       "title": "In-or-Out",
       "deployed": "https://tyrodriguez.github.io/In-Or-Out.io/",
       "repo": "https://github.com/TyRodriguez/In-Or-Out.io",
-      "img": "inorout",
-      "alt": "In-or-Out screenshot",
-      "modalId": "inoroutModal"
+      "img": "In-or-Out",
+      "location": "inorout",
+      "alt": "In-or-Out screenshot"
     },
     {
       "title": "Budget Tracker",
       "deployed": "https://immense-chamber-26254.herokuapp.com/",
       "repo": "https://github.com/jaykim92/PWA-Budget-Tracker",
-      "img": "budgettracker",
-      "alt": "budget screenshot",
-      "modalId": "budgetModal"
+      "img": "Budget-Tracker",
+      "location": "budgettracker",
+      "alt": "budget screenshot"
     },
     {
       "title": "Day Planner",
       "deployed": "https://jaykim92.github.io/day-planner.io/",
       "repo": "https://github.com/jaykim92/day-planner.io",
-      "img": "day-planner",
-      "alt": "Day Planner screenshot",
-      "modalId": "plannermodal"
+      "img": "Day-Planner",
+      "location": "dayplanner",
+      "alt": "Day Planner screenshot"
     },
     {
       "title": "Weather Dashboard",
       "deployed": "https://jaykim92.github.io/weather-dashboard-API.io/",
       "repo": "https://github.com/jaykim92/weather-dashboard-API.io",
-      "img": "weather-dashboard",
-      "alt": "Weather Dashboard screenshot",
-      "modalId": "weatherModal"
+      "img": "Weather-Dashboard",
+      "location": "weatherdashboard",
+      "alt": "Weather Dashboard screenshot"
     }
   ]
 }

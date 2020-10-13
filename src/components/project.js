@@ -2,9 +2,9 @@
 import React from "react";
 
 // // assets
-// import inorout from "../assets/inorout.png";
-// import weather from "../assets/weather-dashboard.png";
-// import dayplanner from "../assets/day-planner.png";
+import inorout from "../assets/inorout.png";
+import weather from "../assets/weather-dashboard.png";
+import dayplanner from "../assets/day-planner.png";
 
 
 // const imgCMS = {
@@ -51,30 +51,27 @@ function Project({ data }) {
     //     </div>
     //   </div>
     // </div>
-    <div>
-      <div className="col-md-4 col-sm-12">
-        <div className="card mx-auto mb-4" style={{ width: "20rem", height: "16rem"}}>
-          <div className="card-body row">
-            <h3 className="card-header col-sm-12"><a href={`#${data.id}`} className="text-dark" data-toggle="modal" data-target={data.id}>{data.title}</a></h3>
-            <a className="card-title col-sm-12 pt-3 text-dark" href={data.deployed}>
-              Visit
-            </a>
-            <a className="card-title col-sm-12 text-dark" href={data.repo}>
-              GitHub
-            </a>
-          </div>
+    <div className="col-md-4 col-sm-12">
+      <div
+        className="card mx-auto mb-4"
+        style={{ width: "20rem", height: "16rem" }}
+      >
+        <div className="card-body row">
+          <h3 className="card-header col-sm-12 text-dark">
+              {data.title}
+          </h3>
+          <a
+            className="card-title col-sm-12 pt-3 text-dark"
+            href={data.deployed}
+          >
+            Visit
+          </a>
+          <a className="card-title col-sm-12 text-dark" href={data.repo}>
+            GitHub
+          </a>
+          <a className="card-title col-sm-12 text-dark" href={data.img}><img src={require(`../assets/${data.location}.png`)}></img>Screenshot</a>
         </div>
       </div>
-      
-      <div className="modal fade" id={data.id} tabIndex="-1" role="dialog" aria-labelledby="projectModalT">
-        <div className="modal-dialog modal-dialog-centered" role="document">
-            <div className="modal-content">
-                <div className="modal-header">
-                    <h5 className="modal-titel" id="projectModalTitle">{data.title}</h5>
-                </div>
-            </div>
-        </div>
-      </div>          
     </div>
   );
 }
