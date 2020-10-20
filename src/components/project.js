@@ -2,9 +2,9 @@
 import React from "react";
 
 // // assets
-import inorout from "../assets/inorout.png";
-import weather from "../assets/weather-dashboard.png";
-import dayplanner from "../assets/day-planner.png";
+// import inorout from "../assets/inorout.png";
+// import weather from "../assets/weather-dashboard.png";
+// import dayplanner from "../assets/day-planner.png";
 
 
 // const imgCMS = {
@@ -69,7 +69,7 @@ function Project({ data }) {
           <a className="card-title col-sm-12 text-dark" href={data.repo}>
             GitHub
           </a>
-          <a className="card-title col-sm-12 text-dark" href={data.img}><img src={require(`../assets/${data.location}.png`)}></img>Screenshot</a>
+          <a className="card-title col-sm-12 text-dark" href={require(`../assets/${data.location}.png`)}>Screenshot</a>
         </div>
       </div>
     </div>
