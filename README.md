@@ -4,7 +4,7 @@ Full Stack Web Developer Portfolio
 
 ## Table of Contents
 * [Usage] (#usage)
-[Deployed Application] (#deployed-application)
+* [Deployed Application] (#deployed-application)
 
 <br/>
 
