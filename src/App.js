@@ -7,7 +7,6 @@ import Front from "./pages/front";
 import About from "./pages/about";
 import Portfolio from "./pages/portfolio";
 import Contact from "./pages/contact";
-import Footer from "./components/footer";
 
 // styling
 import "./style.css";

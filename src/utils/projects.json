@@ -6,7 +6,9 @@
       "repo": "https://github.com/jaykim92/Final-Project",
       "img": "Anti-Social-Social-App",
       "location": "assa",
-      "alt": "social app screenshot"
+      "alt": "social app screenshot",
+      "desc": "Social media app that helps users avoid crowded places",
+      "tech": "MongoDB, Express, React, Node, Material UI, Google Maps API"
     },
     {
       "title": "Restaurateur",
@@ -14,7 +16,9 @@
       "repo": "https://github.com/TyRodriguez/Project-Two",
       "img": "Restaurateur",
       "location": "restaurateur",
-      "alt": "Restaurateur screenshot"
+      "alt": "Restaurateur screenshot",
+      "desc": "Menu hosting app to help small business owners upload their menu online",
+      "tech": "MySQL, Express, Node, Handlebars, Bulma"
     },
     {
       "title": "In-or-Out",
@@ -22,7 +26,9 @@
       "repo": "https://github.com/TyRodriguez/In-Or-Out.io",
       "img": "In-or-Out",
       "location": "inorout",
-      "alt": "In-or-Out screenshot"
+      "alt": "In-or-Out screenshot",
+      "desc": "Food search app for users with dietary preferences",
+      "tech": "jQuery, Google Maps API, Materialize"
     },
     {
       "title": "Budget Tracker",
@@ -30,7 +36,9 @@
       "repo": "https://github.com/jaykim92/PWA-Budget-Tracker",
       "img": "Budget-Tracker",
       "location": "budgettracker",
-      "alt": "budget screenshot"
+      "alt": "budget screenshot",
+      "desc": "Progressive web app that keeps track of income and expenditures with visualization",
+      "tech": "Bootstrap"
     },
     {
       "title": "Day Planner",
@@ -38,7 +46,9 @@
       "repo": "https://github.com/jaykim92/day-planner.io",
       "img": "Day-Planner",
       "location": "dayplanner",
-      "alt": "Day Planner screenshot"
+      "alt": "Day Planner screenshot",
+      "desc": "Organization app that helps users with daily scheduling and planning",
+      "tech": "jQuery, Bootstrap"
     },
     {
       "title": "Weather Dashboard",
@@ -46,7 +56,9 @@
       "repo": "https://github.com/jaykim92/weather-dashboard-API.io",
       "img": "Weather-Dashboard",
       "location": "weatherdashboard",
-      "alt": "Weather Dashboard screenshot"
+      "alt": "Weather Dashboard screenshot",
+      "desc": "Weather app that shows a five day forecast of the user's searched city",
+      "tech": "Bootstrap, third party weather API"
     }
   ]
 }

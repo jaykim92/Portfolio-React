@@ -61,15 +61,17 @@ function Project({ data }) {
               {data.title}
           </h3>
           <a
-            className="card-title col-sm-12 pt-3 text-dark"
+            className="card-title col-sm-3 text-dark"
             href={data.deployed}
           >
-            Visit
+            <h5>Visit</h5>
           </a>
-          <a className="card-title col-sm-12 text-dark" href={data.repo}>
-            GitHub
+          <a className="card-title col-sm-4 text-dark" href={data.repo}>
+            <h5>Github</h5>
           </a>
-          <a className="card-title col-sm-12 text-dark" href={require(`../assets/${data.location}.png`)}>Screenshot</a>
+          <a className="card-title col-sm-5 text-dark" href={require(`../assets/${data.location}.png`)}><h5>Snapshot</h5></a>
+          <h6 className="text-justify">{data.desc}</h6>
+          <h6 className="text-justify">{data.tech}</h6>
         </div>
       </div>
     </div>
