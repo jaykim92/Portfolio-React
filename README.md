@@ -36,4 +36,4 @@ Full Stack Web Developer Portfolio
 * Material-UI
 
 ## Deployed Application
-https://portfolio-jay-kim.herokuapp.com/
+https://jaykim.herokuapp.com/
