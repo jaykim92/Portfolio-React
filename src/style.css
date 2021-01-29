@@ -113,3 +113,11 @@
   width: 30%;
   height: 20%;
 }
+
+.scroll-div {
+  overflow: scroll;
+}
+
+.carousel-height {
+  max-height: 80%
+}
