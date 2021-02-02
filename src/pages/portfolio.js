@@ -6,7 +6,7 @@ import Project from "../components/project";
 import Header from "../components/header";
 
 // utils
-// import projects from "../utils/projects.json";
+import projects from "../utils/projects.json";
 
 function Portfolio() {
   return (
@@ -22,7 +22,11 @@ function Portfolio() {
     // </div>
     <div className="full-height projects-img">
       <Header />
-      <Project />
+      <div className="container">
+          {projects.projectArray.map((item, i) => (
+            <Project key={i} data={item} />
+          ))}
+      </div>
     </div>
   );
 }

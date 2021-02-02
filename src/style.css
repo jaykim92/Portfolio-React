@@ -120,14 +120,10 @@
 }
 
 /* carousel styling */
-.carousel-width {
-  width: 90%
-}
-
 .img-height {
   height: 90%;
 }
 
-.carousel-margin-top {
+.div-margin-top {
   margin-top: 5rem
 }

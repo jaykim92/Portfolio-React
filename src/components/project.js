@@ -24,11 +24,14 @@ function Project({ data }) {
 
   return (
     <>
+    <div className="div-margin-top">
+      <h1>{data.title}</h1>
+    </div>
       <div className="d-flex justify-content-center">
         <Carousel
           activeIndex={index}
           onSelect={handleSelect}
-          className="carousel-margin-top carousel-width"
+          className="w-100 mt-2 mb-4"
         >
           <Carousel.Item>
             <img
