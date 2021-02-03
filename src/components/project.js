@@ -24,9 +24,9 @@ function Project({ data }) {
 
   return (
     <>
-    <div className="div-margin-top">
-      <h1>{data.title}</h1>
-    </div>
+      <div className="div-margin-top row">
+        <h1>{data.title}</h1>
+      </div>
       <div className="d-flex justify-content-center">
         <Carousel
           activeIndex={index}
@@ -55,10 +55,14 @@ function Project({ data }) {
           </Carousel.Item>
         </Carousel>
       </div>
-      <div >
-        <p>Description of app</p>
-        <p>Link to github</p>
-        <p>Link to application</p>
+      <div>
+        <p className="row">{data.desc}</p>
+        <a href={data.repo} className="row" target="_blank" rel="noopener noreferrer">
+          GitHub Repo
+        </a>
+        <a href={data.deployed} className="row" target="_blank" rel="noopener noreferrer">
+          Link to application
+        </a>
       </div>
     </>
   );

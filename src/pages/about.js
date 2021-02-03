@@ -14,7 +14,7 @@ const About = (props) => {
   return (
     <>
       <Header />
-      <div id="about" className="in-middle">
+      <div id="about" className="in-middle projects-img">
         <div className="jumbotron">
           <div className="container container-opaque">
             <div className="container" style={{ width: "70%" }}>

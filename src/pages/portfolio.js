@@ -20,7 +20,7 @@ function Portfolio() {
     //     </div>
     //   </div>
     // </div>
-    <div className="full-height projects-img">
+    <div className="full-height">
       <Header />
       <div className="container">
           {projects.projectArray.map((item, i) => (
