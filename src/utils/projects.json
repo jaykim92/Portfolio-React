@@ -7,7 +7,6 @@
       "img": "Mx.Swimms",
       "location1": "swimms1",
       "location2": "swimms2",
-      "alt": "social app screenshot",
       "desc": "Website for music artist Mx.Swimms, showcasing discography and links to social media",
       "tech": "HTML, CSS, JavaScript, React.js, Material-Ui"
     },
@@ -18,7 +17,6 @@
       "img": "Day-Planner",
       "location1": "dayplanner1",
       "location2": "dayplanner2",
-      "alt": "Day Planner screenshot",
       "desc": "Organization app that helps users with daily scheduling and planning",
       "tech": "HTML, CSS, JavaScript, jQuery, Bootstrap"
     },
@@ -29,7 +27,6 @@
       "img": "Weather-Dashboard",
       "location1": "dashboard1",
       "location2": "dashboard2",
-      "alt": "Weather Dashboard screenshot",
       "desc": "Weather app that shows a five day forecast of the user's searched city",
       "tech": "HTML, CSS, JavaScript, Bootstrap, third party weather API"
     },
@@ -40,7 +37,6 @@
       "img": "Budget-Tracker",
       "location1": "budget1",
       "location2": "budget2",
-      "alt": "budget screenshot",
       "desc": "Progressive web app that keeps track of income and expenditures with visualization",
       "tech": "HTML, CSS, JavaScript, Bootstrap"
     }

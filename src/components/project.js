@@ -13,8 +13,9 @@ function Project({ data }) {
 
   return (
     <>
-      <div className="div-margin-top row">
-        <h1>{data.title}</h1>
+      <div className="div-margin-top">
+        <h1 className="row">{data.title}</h1>
+        <p className="row">{data.desc}</p>
       </div>
       <div className="d-flex justify-content-center">
         <Carousel
@@ -26,26 +27,20 @@ function Project({ data }) {
             <img
               className="d-block w-100"
               src={require(`../assets/${data.location1}.jpg`)}
-              alt="first project slide"
+              alt="project first scrreenshot"
             />
-            <Carousel.Caption>
-              <h3>Project 1 slide 1</h3>
-            </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
             <img
               className="d-block w-100"
               src={require(`../assets/${data.location2}.jpg`)}
-              alt="second project slide"
+              alt="project second screenshot"
             />
-            <Carousel.Caption>
-              <h3>Project 1 slide 2</h3>
-            </Carousel.Caption>
           </Carousel.Item>
         </Carousel>
       </div>
       <div className="mb-5">
-        <p className="row">{data.desc}</p>
+        <p className="row">technologies</p>
         <a
           href={data.repo}
           className="row"
@@ -63,6 +58,7 @@ function Project({ data }) {
           Link to application
         </a>
       </div>
+      <hr></hr>
     </>
   );
 }
