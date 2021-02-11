@@ -1,64 +1,48 @@
 {
   "projectArray": [
     {
-      "title": "Anti-Social Social App",
-      "deployed": "https://anti-social-social-app.herokuapp.com",
-      "repo": "https://github.com/jaykim92/Final-Project",
-      "img": "Anti-Social-Social-App",
-      "location": "assa",
+      "title": "Mx.Swimms",
+      "deployed": "https://mxswimms.herokuapp.com/",
+      "repo": "https://github.com/jaykim92/mxswimms",
+      "img": "Mx.Swimms",
+      "location1": "swimms1",
+      "location2": "swimms2",
       "alt": "social app screenshot",
-      "desc": "Social media app that helps users avoid crowded places",
-      "tech": "MongoDB, Express, React, Node, Material UI, Google Maps API"
-    },
-    {
-      "title": "Restaurateur",
-      "deployed": "https://restaurateurs.herokuapp.com/",
-      "repo": "https://github.com/TyRodriguez/Project-Two",
-      "img": "Restaurateur",
-      "location": "restaurateur",
-      "alt": "Restaurateur screenshot",
-      "desc": "Menu hosting app to help small business owners upload their menu online",
-      "tech": "MySQL, Express, Node, Handlebars, Bulma"
-    },
-    {
-      "title": "In-or-Out",
-      "deployed": "https://tyrodriguez.github.io/In-Or-Out.io/",
-      "repo": "https://github.com/TyRodriguez/In-Or-Out.io",
-      "img": "In-or-Out",
-      "location": "inorout",
-      "alt": "In-or-Out screenshot",
-      "desc": "Food search app for users with dietary preferences",
-      "tech": "jQuery, Google Maps API, Materialize"
-    },
-    {
-      "title": "Budget Tracker",
-      "deployed": "https://immense-chamber-26254.herokuapp.com/",
-      "repo": "https://github.com/jaykim92/PWA-Budget-Tracker",
-      "img": "Budget-Tracker",
-      "location": "budgettracker",
-      "alt": "budget screenshot",
-      "desc": "Progressive web app that keeps track of income and expenditures with visualization",
-      "tech": "Bootstrap"
+      "desc": "Website for music artist Mx.Swimms, showcasing discography and links to social media",
+      "tech": "HTML, CSS, JavaScript, React.js, Material-Ui"
     },
     {
       "title": "Day Planner",
       "deployed": "https://jaykim92.github.io/day-planner.io/",
       "repo": "https://github.com/jaykim92/day-planner.io",
       "img": "Day-Planner",
-      "location": "dayplanner",
+      "location1": "dayplanner1",
+      "location2": "dayplanner2",
       "alt": "Day Planner screenshot",
       "desc": "Organization app that helps users with daily scheduling and planning",
-      "tech": "jQuery, Bootstrap"
+      "tech": "HTML, CSS, JavaScript, jQuery, Bootstrap"
     },
     {
       "title": "Weather Dashboard",
       "deployed": "https://jaykim92.github.io/weather-dashboard-API.io/",
       "repo": "https://github.com/jaykim92/weather-dashboard-API.io",
       "img": "Weather-Dashboard",
-      "location": "weatherdashboard",
+      "location1": "dashboard1",
+      "location2": "dashboard2",
       "alt": "Weather Dashboard screenshot",
       "desc": "Weather app that shows a five day forecast of the user's searched city",
-      "tech": "Bootstrap, third party weather API"
+      "tech": "HTML, CSS, JavaScript, Bootstrap, third party weather API"
+    },
+    {
+      "title": "Budget Tracker",
+      "deployed": "https://immense-chamber-26254.herokuapp.com/",
+      "repo": "https://github.com/jaykim92/PWA-Budget-Tracker",
+      "img": "Budget-Tracker",
+      "location1": "budget1",
+      "location2": "budget2",
+      "alt": "budget screenshot",
+      "desc": "Progressive web app that keeps track of income and expenditures with visualization",
+      "tech": "HTML, CSS, JavaScript, Bootstrap"
     }
   ]
 }

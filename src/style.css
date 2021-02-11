@@ -4,11 +4,6 @@
   background-size: cover;
 }
 
-.about-img {
-  background-image: url("./assets/about.jpg");
-  background-size: cover;
-}
-
 .contact-img {
   background-image: url("./assets/portfolio-three.jpeg");
   background-size: cover;
@@ -125,5 +120,5 @@
 }
 
 .div-margin-top {
-  margin-top: 5rem
+  margin-top: 5rem;
 }
