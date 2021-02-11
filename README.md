@@ -3,15 +3,18 @@ Full Stack Web Developer Portfolio
 <br/>
 
 ## Table of Contents
+* [Description](#description)
 * [Usage](#usage)
 * [Deployed Application](#deployed-application)
 * [Technologies Used](#technologies-used)
 
 <br/>
 
+## Description
+This website was created to highlight some of the projects that I have worked on as a full stack web developer.
+
 ## Usage
 **About**
-<br/>
 * About button takes you to an introduction about me 
 * Clicking the Languages button reveals some of the languages I am familiar with
 * Clicking the Technologies button reveals some of the technologies I have used in the past
@@ -31,9 +34,9 @@ Full Stack Web Developer Portfolio
 **Home**
 * Home link on the navbar will take you back to the landing page
 
+## Deployed Application
+https://portfolio-jay-kim.herokuapp.com/
+
 ## Technologies Used
 * React
 * Material-UI
-
-## Deployed Application
-https://jaykim.herokuapp.com/
