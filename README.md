@@ -40,5 +40,3 @@ https://portfolio-jay-kim.herokuapp.com/
 ## Technologies Used
 * React
 * Material-UI
-
-
