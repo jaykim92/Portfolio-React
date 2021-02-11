@@ -93,6 +93,7 @@
   position: fixed;
   top: 0;
   width: 100%;
+  z-index: 100;
 }
 
 /* footer */
@@ -112,4 +113,17 @@
 .custom-img-size {
   width: 30%;
   height: 20%;
+}
+
+.scroll-div {
+  overflow: scroll;
+}
+
+/* carousel styling */
+.img-height {
+  height: 90%;
+}
+
+.div-margin-top {
+  margin-top: 5rem
 }
