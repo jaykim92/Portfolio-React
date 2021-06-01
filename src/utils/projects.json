@@ -1,13 +1,22 @@
 {
   "projectArray": [
     {
+      "title": "Dealing with Divorce",
+      "deployed": "https://dealingwithdivorce.org/",
+      "img": "Dealing with Divorce",
+      "location1": "dwd1",
+      "location2": "dwd2",
+      "desc": "Website for non-profit organization, Dealing with Divorce, highlighting services provided by the company, allowing for member and employee applications, and preparing the company for donations and e-commerce store.",
+      "tech": "WordPress, Elementor, WooCommerce, Give WP"
+    },
+    {
       "title": "Mx.Swimms",
       "deployed": "https://mxswimms.herokuapp.com/",
       "repo": "https://github.com/jaykim92/mxswimms",
       "img": "Mx.Swimms",
       "location1": "swimms1",
       "location2": "swimms2",
-      "desc": "Website for music artist Mx.Swimms, showcasing discography and links to social media",
+      "desc": "Website for music artist, Mx.Swimms, showcasing discography and links to social media",
       "tech": "HTML, CSS, JavaScript, React.js, Material-Ui"
     },
     {

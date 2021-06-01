@@ -40,7 +40,7 @@ function Project({ data }) {
         </Carousel>
       </div>
       <div className="mb-5">
-        <p className="row">technologies</p>
+        <p className="row">Technologies used: {data.tech}</p>
         <a
           href={data.repo}
           className="row"
